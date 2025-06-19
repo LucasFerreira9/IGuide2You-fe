@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042363357435",
+    "project_id": "iguide2you",
+    "storage_bucket": "iguide2you.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042363357435:android:d2243662558a6102f9385e",
+        "android_client_info": {
+          "package_name": "com.iguide2you"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKWWxBGhjP3kiUpDvlh9SGUfCOi0idKxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

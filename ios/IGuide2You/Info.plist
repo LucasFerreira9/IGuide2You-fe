@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide personalized features.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to provide location-based services even when the app is in the background.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera for capturing photos or videos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to select or save images.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save images to your photo library.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>We need permission to send you notifications.</string>
+
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>IGuide2You</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PoppinsBlack.ttf</string>
+		<string>PoppinsBlackItalic.ttf</string>
+		<string>PoppinsBold.ttf</string>
+		<string>PoppinsBoldItalic.ttf</string>
+		<string>PoppinsExtraBold.ttf</string>
+		<string>PoppinsExtraBoldItalic.ttf</string>
+		<string>PoppinsExtraLight.ttf</string>
+		<string>PoppinsExtraLightItalic.ttf</string>
+		<string>PoppinsItalic.ttf</string>
+		<string>PoppinsLight.ttf</string>
+		<string>PoppinsLightItalic.ttf</string>
+		<string>PoppinsMedium.ttf</string>
+		<string>PoppinsMediumItalic.ttf</string>
+		<string>PoppinsRegular.ttf</string>
+		<string>PoppinsSemiBold.ttf</string>
+		<string>PoppinsSemiBoldItalic.ttf</string>
+		<string>PoppinsThin.ttf</string>
+		<string>PoppinsThinItalic.ttf</string>
+	</array>
+</dict>
+</plist>

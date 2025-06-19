@@ -1,0 +1,27 @@
+workflows:
+  ios-build:
+    name: iOS Build
+    environment:
+      xcode: latest
+      node: 16
+      vars:
+        REACT_NATIVE_VERSION: "$(npm view react-native version)"
+    scripts:
+      - name: Clean up package-lock.json
+        script: |
+          if [ -f package-lock.json ]; then
+            rm package-lock.json
+          fi
+      - name: Install dependencies
+        script: |
+          npm install
+          cd ios && pod install && cd ..
+      - name: Build iOS app
+        script: |
+          xcodebuild -workspace ios/IGuide2You.xcworkspace -scheme IGuide2You -configuration Release -archivePath $HOME/build/IGuide2You.xcarchive archive
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - lucassferreira2805@gmail.com
